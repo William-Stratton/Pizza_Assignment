@@ -1,0 +1,85 @@
+body{
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 150px, 1fr, 150px;
+    grid-template-rows: repeat(3,auto);
+    grid-gap: 15px;
+    max-width: 800px;
+    margin: 0, auto;
+    border:2px solid #000;
+    padding: 20px;
+
+}
+header{
+    background-color: #ece0e0;
+}
+
+/*makes text centered*/
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    padding:5px
+}
+
+/*Image for logo*/
+.logo{
+    grid-column: 1 / span 3;
+    text-align: left;
+}
+
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+
+/*user details*/
+.label{
+    grid-column: 1 / span 3;
+    text-align: left;
+}
+
+
+.input{
+    display: grid;
+    grid-column: 2 / span 2;
+    align-content: left;
+}
+
+/*all three of the check boxes*/
+.size, .toppings, .extras{
+    text-align: center;
+    background-color: rgb(172, 170, 168);
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 2 ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/*delivery time and instructions box*/
+.time-delivery, .instructions{
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 10px;
+}
+
+/*footer with legal info*/
+footer{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #000;
+    padding-top: 10px;
+}
+
+
+
+

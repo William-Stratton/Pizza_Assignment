@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="'viewpoint" content="width-device-width, initial-scale=1">
+        <meta name="description" content="This week we are looking at CSS Grid">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Pizza Assignment</title>
+        <!--Adding font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+        <!--Add our css-->
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <!--logo-->
+            <div class="logo">
+                <img src="./img/pizza-logo.png" alt="header logo">
+            </div>
+            <!--title-->
+            <h1>Powerful Pizza</h1>
+            </section>
+        </header>
+        <main>
+
+
+            <section class="contrainer">
+            
+    
+                <section>
+                <!--User details-->
+                    <div class="'label">Your Name:</div>
+                    <input class="input" name="name" required>
+    
+                    <div class="label">Your Email:</div>
+                    <input class="input" name="email" placeholder="Your Email" required>
+    
+                    <div class="label">Your Address</div>
+                    <input class="input" type="text" required>
+    
+                    <div class="label">Tel:</div>
+                    <input class="input" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="705-123-4567" required>
+    
+                    <div class="label">Town</div>
+                    <input class="input" type="text" required>
+
+            <section>
+
+                <!--toppings-->
+                <h3>Toppings</h3>
+                <div class="toppings">
+                    <label><input type="radio" id="veggie" name="pizza" value="veggie">Veggie</label>
+                    <label><input type="radio" id="meatlovers" name="pizza" value="meatlovers">Meat Lovers</label>
+                    <label><input type="radio" id="hawaiian" name="pizza" value="hawaiian">Hawaiian</label>
+                </div>
+
+                <!--Size-->
+                <h3>Size</h3>
+                <div class="size">
+                    <label><input type="radio" id="small" name="size" value="value">Small</label>
+                    <label><input type="radio" id="medium" name="size" value="value">Medium</label>
+                    <label><input type="radio" id="large" name="size" value="value">Large</label>
+                </div>
+
+                <!--extra topping-->
+                <h3>Extras</h3>
+                <div class="extras">
+                    <label><input type="checkbox" id="choice1" name="choice1" value="bacon">Bacon</label>
+                    <label><input type="checkbox" id="choice2" name="choice2" value="pineapple">Pineapple</label>
+                    <label><input type="checkbox" id="choice3" name="choice3" value="greenpeppers">Green Peppers</label>
+                    <label><input type="checkbox" id="choice4" name="choice4" value="mushrooms">Mushrooms</label>
+                    <label><input type="checkbox" id="choice5" name="choice5" value="extracheese">Extra Cheese</label>
+                </div>
+
+            </section>
+            <section>
+                <!--delivery details-->
+                <h2>Delivery Details</h2>
+                <div class="time-delivery">
+                    <div>Time of delivery:</div>
+                    <input type="text">
+                </div>
+
+                <div class="instructions">
+                    <div>Delivery Instructions</div>
+                    <input type="text">
+                </div>
+            </section>
+        </main>
+        <!--footer with the legal info-->
+        <footer>
+            <h6>2024 Pizza Place. All rights reserved. | Contact us: info@powerfulpizza.com</h6>
+        </footer>
+    </body>
+</html>
